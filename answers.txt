@@ -1,0 +1,13 @@
+Q1: https://github.com/flyrobot27
+
+Q2: The version is 2.22.0 on my system (Pop OS 20.04 LTS)
+
+Q3: The version in venv is 2.26.0 on my system
+
+Q4: The one installed in venv has a different version than the one installed outside of my venv.
+
+Q5: The return code is "301 Moved". I must instead visit "https://www.google.com/" to get a 200 return code
+
+Q6: When curl http://google.com/teapot with only the -i option, code 301 is returned. If -iL is used instead, two connection attempts are made. The first attempt still returns the 301 code, while the second attempt returns the 418 code. When curl "http://www.google.com/teapot" code 418 is returned.
+
+Q7: The request method changed from GET to POST. It could be useful if we want the specific request code during debugging for example
